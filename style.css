@@ -1321,12 +1321,23 @@ padding-top: 20px;
 @media (max-width:376px){
   .first h1 {
     font-family: Poppins;
-    font-size: 43px;
+    font-size: 32px;
     font-weight: 600;
     line-height: 61px;
     letter-spacing: 0em;
     text-align: center;
     width: 100%;
+}
+.first p {
+  font-family: Poppins;
+  color: #333333;
+  /* font-weight: 50; */
+  text-align: center;
+  height: 85px;
+  width: 100%;
+  padding-top: 21px;
+  font-size: 12px;
+  margin-bottom: 60px;
 }
 .second img {
   height: 387px;
@@ -1339,7 +1350,7 @@ padding-top: 20px;
 }
 .third p {
   font-family: Poppins;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 400;
   line-height: 26px;
   text-align: center;
@@ -1349,7 +1360,7 @@ padding-top: 20px;
 }
 .two p {
   font-family: Poppins;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 300;
   line-height: 25px;
   letter-spacing: 0em;
@@ -1358,8 +1369,17 @@ padding-top: 20px;
   width: 100%;
   padding-bottom: 30px;
 }
+.third h1 {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 50px;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 20px;
+}
 .grid-1 ul h1 {
-  font-size: 13px;
+  font-size: 12px;
 }
 .foot-word p {
   text-align: center;
