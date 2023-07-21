@@ -1017,19 +1017,20 @@ align-items: Left;
   font-size: 21px;
   margin-bottom: 20px;
 }
-.one-butt{
+.one-butt {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 5rem;
 }
 .one-butt button {
   background-color: #5f236e;
   color: white;
-  width: 70%;
+  width: 45%;
   height: 60px;
   border-radius: 10px;
   border: none;
-  font-size: 20px;
+  font-size: 15px;
 }
 .two-butt {
   display: flex;
@@ -1190,7 +1191,7 @@ align-items: Left;
   padding: 0 20px;
 }
 }
-@media(max-width:426px){
+@media(max-width:501px){
   .first h1 {
     font-family: Poppins;
     font-size: 50px;
@@ -1289,11 +1290,11 @@ padding-top: 20px;
 .grid-2 h1{
   font-size: 15px;
 }
-.socials{
+.socials {
   padding-top: 20px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  gap: 1rem;
 }
 .foot-word{
   padding-top: 4rem;
